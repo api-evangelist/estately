@@ -1,8 +1,24 @@
 aid: estately
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/estately.png
 name: Estately
-description: Estately is a company surfaced as a portfolio company of 500-global, uncork-capital and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Estately is a Seattle-based, MLS-based residential real estate search platform for browsing
+  homes for sale, recently sold homes, home values, and neighborhood information, and for connecting buyers
+  and sellers with agents. Estately does not publish a public developer API or developer portal; its notable
+  developer-facing surface is the open-source `rets` Ruby library it maintains for fetching data from RETS
+  (Real Estate Transaction Standard) servers, distributed on RubyGems with a bundled command-line client.
+  This profile was surfaced from VC-portfolio signals (500 Global, Uncork Capital) and enriched by the API
+  Evangelist pipeline.
 url: https://raw.githubusercontent.com/api-evangelist/estately/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,9 +29,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Real Estate
+- Homes for Sale
+- MLS
+- Property Search
+- RETS
+- Open Source
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +45,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/estately-domain-security.yml
 - type: Website
-  url: https://estately.com
+  url: https://www.estately.com
+- type: GitHubOrganization
+  url: https://github.com/estately
+- type: Packages
+  url: packages/estately-packages.yml
+- type: SDKs
+  url: packages/estately-packages.yml
+- type: LLMsTxt
+  url: llms/estately-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

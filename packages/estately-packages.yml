@@ -1,0 +1,17 @@
+generated: '2026-07-19'
+method: searched
+source: https://rubygems.org/gems/rets
+packages:
+- language: ruby
+  registry: rubygems
+  name: rets
+  url: https://rubygems.org/gems/rets
+  install: gem install rets
+  official: true
+  license: MIT
+  repository: https://github.com/estately/rets
+  description: A pure-ruby library for fetching data from RETS (Real Estate Transaction
+    Standard) servers. Published by Estately, Inc. Open Source (opensource@estately.com).
+    Ships a `rets` command-line executable for exploring RETS metadata and pulling
+    property/photo data.
+  ships_cli: true

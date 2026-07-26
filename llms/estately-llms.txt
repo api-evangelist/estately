@@ -1,0 +1,16 @@
+# Estately
+
+> Estately is an MLS-based residential real estate search platform (Seattle, WA) for browsing homes for sale, recently sold homes, home values, and connecting with agents. Added to the API Evangelist network from VC-portfolio signals. Estately does not publish a public developer API or portal; its notable developer surface is the open-source `rets` Ruby library it maintains for querying RETS (Real Estate Transaction Standard) servers.
+
+## Website
+- [Estately](https://www.estately.com/): MLS-based real estate search — homes for sale, recently sold, home values, agents.
+- [About Estately](https://www.estately.com/about): Company background.
+
+## Open Source
+- [estately/rets (GitHub)](https://github.com/estately/rets): A pure-ruby library for fetching data from RETS servers. MIT licensed, maintained by Estately, Inc. Open Source.
+- [rets (RubyGems)](https://rubygems.org/gems/rets): `gem install rets` — Ruby client + `rets` CLI for RETS metadata and property/photo retrieval.
+- [Estately on GitHub](https://github.com/estately): Estately's open-source organization.
+
+## Repo Artifacts
+- [packages](https://raw.githubusercontent.com/api-evangelist/estately/refs/heads/main/packages/estately-packages.yml): First-party package inventory (the `rets` gem).
+- [domain security](https://raw.githubusercontent.com/api-evangelist/estately/refs/heads/main/security/estately-domain-security.yml): Probed TLS/HSTS/DNSSEC/CAA/SPF/DMARC posture.
