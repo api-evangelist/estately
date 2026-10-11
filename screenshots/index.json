@@ -1,0 +1,11 @@
+[
+  {
+    "repo": "estately",
+    "captured_at": "2026-10-11T185212",
+    "source_url": "https://www.estately.com",
+    "source_type": "Website",
+    "file": "estately-2026-10-11T185212.png",
+    "bytes": 19524,
+    "capture": "playwright-local"
+  }
+]
